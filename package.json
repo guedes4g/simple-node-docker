@@ -1,0 +1,25 @@
+{
+  "name": "simple-node-docker",
+  "version": "1.0.0",
+  "description": "simpleNodeDockerApp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guedes4g/simple-node-docker.git"
+  },
+  "author": "Felipe Guedes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guedes4g/simple-node-docker/issues"
+  },
+  "homepage": "https://github.com/guedes4g/simple-node-docker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.18"
+  }
+}
